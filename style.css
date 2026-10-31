@@ -1,0 +1,243 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1eafa;
+    color: #49315f;
+}
+
+header {
+    background-color: #583477;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+header h1 {
+    margin: 5px;
+    font-size: 30px;
+}
+
+header p {
+    margin: 5px;
+}
+
+.themes {
+    text-align: center;
+    padding: 12px;
+    background-color: white;
+}
+
+.themes a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.themes a:nth-child(1) {
+    background-color: #583477;
+}
+
+.themes a:nth-child(2) {
+    background-color: #176b3a;
+}
+
+.themes a:nth-child(3) {
+    background-color: #142d55;
+}
+
+.themes a:hover {
+    opacity: 0.8;
+}
+
+nav {
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    opacity: 0.8;
+}
+
+.purple-nav {
+    background-color: #583477;
+}
+
+.green-nav {
+    display: none;
+    background-color: #176b3a;
+}
+
+.navy-nav {
+    display: none;
+    background-color: #142d55;
+}
+
+.content {
+    background-color: white;
+    border: 2px solid #75539a;
+    border-radius: 10px;
+    width: 75%;
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 25px;
+    text-align: center;
+    min-height: 180px;
+    box-sizing: border-box;
+}
+
+.content h2 {
+    color: #583477;
+}
+
+form {
+    width: 85%;
+    max-width: 350px;
+    margin: auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="password"],
+form select {
+    width: 100%;
+    padding: 9px;
+    margin-top: 6px;
+    border: 1px solid #9676b5;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.gender {
+    margin-top: 8px;
+}
+
+.agreement {
+    margin-top: 15px;
+}
+
+form input[type="submit"] {
+    background-color: #583477;
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    margin-top: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    opacity: 0.8;
+}
+
+.content a {
+    color: #583477;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #583477;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 3px;
+}
+
+body:has(#green:target) {
+    background-color: #e5f5e5;
+    color: #214b30;
+}
+
+body:has(#green:target) header,
+body:has(#green:target) footer {
+    background-color: #176b3a;
+}
+
+body:has(#green:target) .purple-nav {
+    display: none;
+}
+
+body:has(#green:target) .green-nav {
+    display: block;
+}
+
+body:has(#green:target) .navy-nav {
+    display: none;
+}
+
+body:has(#green:target) .content {
+    border-color: #398653;
+}
+
+body:has(#green:target) .content h2,
+body:has(#green:target) .content a {
+    color: #176b3a;
+}
+
+body:has(#green:target) form input[type="submit"] {
+    background-color: #176b3a;
+}
+
+body:has(#navy:target) {
+    background-color: #e5efff;
+    color: #203a5e;
+}
+
+body:has(#navy:target) header,
+body:has(#navy:target) footer {
+    background-color: #142d55;
+}
+
+body:has(#navy:target) .purple-nav {
+    display: none;
+}
+
+body:has(#navy:target) .green-nav {
+    display: none;
+}
+
+body:has(#navy:target) .navy-nav {
+    display: block;
+}
+
+body:has(#navy:target) .content {
+    border-color: #315b91;
+}
+
+body:has(#navy:target) .content h2,
+body:has(#navy:target) .content a {
+    color: #142d55;
+}
+
+body:has(#navy:target) form input[type="submit"] {
+    background-color: #142d55;
+}
+
+    nav a {
+        padding: 8px;
+        margin: 3px;
+    }
+}

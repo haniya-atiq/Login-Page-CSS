@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website - Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="purple"></div>
+    <div id="green"></div>
+    <div id="navy"></div>
+
+    <header>
+        <h1>MY WEBSITE</h1>
+        <p>Welcome to My Personal Website</p>
+    </header>
+
+    <div class="themes">
+        <a href="#purple">Purple</a>
+        <a href="#green">Green</a>
+        <a href="#navy">Navy Blue</a>
+    </div>
+
+    <nav class="purple-nav">
+        <a href="home.html#purple">Home</a>
+        <a href="about.html#purple">About Us</a>
+        <a href="first.html#purple">Login</a>
+        <a href="second.html#purple">Registration</a>
+    </nav>
+
+    <nav class="green-nav">
+        <a href="home.html#green">Home</a>
+        <a href="about.html#green">About Us</a>
+        <a href="first.html#green">Login</a>
+        <a href="second.html#green">Registration</a>
+    </nav>
+
+    <nav class="navy-nav">
+        <a href="home.html#navy">Home</a>
+        <a href="about.html#navy">About Us</a>
+        <a href="first.html#navy">Login</a>
+        <a href="second.html#navy">Registration</a>
+    </nav>
+
+    <div class="content">
+        <h2>Registration Form</h2>
+
+        <form action="third.html">
+            <label>Login Name:</label>
+            <input type="text" placeholder="Enter login name" required>
+
+            <label>Password:</label>
+            <input type="password" placeholder="Enter password" required>
+
+            <label>Rewrite Password:</label>
+            <input type="password" placeholder="Rewrite password" required>
+
+            <label>Gender:</label>
+            <div class="gender">
+                <input type="radio" name="gender" value="Male" required> Male
+                <input type="radio" name="gender" value="Female"> Female
+            </div>
+
+            <label>Country:</label>
+            <select required>
+                <option value="">Select Country</option>
+                <option>Pakistan</option>
+                <option>India</option>
+                <option>United States</option>
+                <option>United Kingdom</option>
+                <option>Canada</option>
+            </select>
+
+            <div class="agreement">
+                <input type="checkbox" required>
+                I agree to the terms and conditions.
+            </div>
+
+            <input type="submit" value="Create Account">
+        </form>
+    </div>
+
+    <footer>
+        <p>My Website | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
